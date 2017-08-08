@@ -35,15 +35,9 @@ const contains = (collection, item, cb) => {
 };
 
 const removeDuplicates = (collection, cb) => {
-  const newArray = collection;
-  for (let i = 0; i < collection.length; i++) {
-    if (collection[i] === newArray[i]) {
-      newArray.splice(i, 1);
-    }
-  }
-  collection = newArray;
   // Write a function called removeDuplicates that removes all duplicate values from the given array.
   // Pass the array to the callback function.  Do not mutate the original array.
+
 };
 
 module.exports = {

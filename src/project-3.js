@@ -58,7 +58,7 @@ const hasEmail = (user) => {
   // otherwise return false
   if (user.email) {
     return true;
-  } 
+  }
   return false;
 };
 
@@ -82,8 +82,8 @@ const verifyPassword = (user, password) => {
 const updatePassword = (user, newPassword) => {
   // replace the existing password on the user object with the value of newPassword
   // return the object
-    user.password = newPassword;
-    return user;
+  user.password = newPassword;
+  return user;
 };
 
 const addFriend = (user, newFriend) => {
@@ -99,9 +99,9 @@ const setUsersToPremium = (users) => {
   // each user object has the property 'isPremium'
   // set each user's isPremium property to true
   // return the users array
-   for (let i = 0; i < users.length; i++) {
+  for (let i = 0; i < users.length; i++) {
     users[i].isPremium = true;
-   }
+  }
   return users;
 };
 
@@ -128,7 +128,7 @@ const addCalculateDiscountPriceMethod = (storeItem) => {
   // discountPrice = 20 - (20 * .2)
   // Make sure you return storeItem after adding the method to it
   // hint: arrow functions don't bind a this
-   storeItem.calculateDiscountPrice = () => {
+  storeItem.calculateDiscountPrice = () => {
     const discountPrice = storeItem.price - (storeItem.price * storeItem.discountPercentage);
     return discountPrice;
   };
