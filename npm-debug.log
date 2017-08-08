@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\nodejs\\node.exe',
+1 verbose cli   'C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'npm@latest' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.1
+4 verbose stack Error: Cannot find module 'async'
+4 verbose stack     at Function.Module._resolveFilename (module.js:469:15)
+4 verbose stack     at Function.Module._load (module.js:417:25)
+4 verbose stack     at Module.require (module.js:497:17)
+4 verbose stack     at require (internal/module.js:20:19)
+4 verbose stack     at Object.<anonymous> (C:\nodejs\node_modules\npm\node_modules\request\node_modules\form-data\lib\form_data.js:9:13)
+4 verbose stack     at Module._compile (module.js:570:32)
+4 verbose stack     at Object.Module._extensions..js (module.js:579:10)
+4 verbose stack     at Module.load (module.js:487:32)
+4 verbose stack     at tryModuleLoad (module.js:446:12)
+4 verbose stack     at Function.Module._load (module.js:438:3)
+5 verbose cwd C:\nodejs\lambda\Basic-JavaScript
+6 error Windows_NT 10.0.15063
+7 error argv "C:\\nodejs\\node.exe" "C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "npm@latest"
+8 error node v6.9.1
+9 error npm  v3.10.10
+10 error code MODULE_NOT_FOUND
+11 error Cannot find module 'async'
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
